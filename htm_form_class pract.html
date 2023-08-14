@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>html forms</title>
+  </head>
+  <body>
+    <form action="./image.jpg" method="post">
+      <input type="text" name="user" placeholder="username" />
+      <input type="password" name="pass" placeholder="password" />
+
+      <hr />
+
+      <label>GENDER:</label>
+      <input type="radio" name="gender" value="male" /> <label>MALE</label>
+      <input type="radio" name="gender" value="female" /> <label>FEMALE</label>
+      <input type="radio" name="gender" value="others" /> <label>OTHERS</label>
+      <hr />
+
+      <select name="skills" multiple>
+        <option value="java">Java</option>
+        <option value="sql">SQL</option>
+        <option value="c++">C++</option>
+      </select>
+
+      <input type="submit" />
+    </form>
+    <hr />
+
+    <form>
+      <input type="text" placeholder="username" maxlength="10" />
+      <input type="password" placeholder="password" minlength="6" />
+      <hr />
+
+      <label>GENDER:</label>
+      <input type="radio" name="8" id="male" /> <label for="male">male</label>
+      <input type="radio" name="8" id="" /> <label for="">female</label>
+    </form>
+    <hr />
+    <form action=""><input type="email" /> <label for="">email</label></form>
+    <hr />
+    <hr />
+    <h5 align="center">class practice no-1</h5>
+    <form>
+      <input type="text" placeholder="your user name" />
+      <label>username</label> <input type="password" placeholder="password" />
+      <label>username</label>
+      <br />
+      <br />
+
+      <input type="submit" /> <label for=""></label>
+      <input type="number" placeholder="AGE" min="1" max="60" />
+
+      <label for="">Adhar Card:</label>
+      <input type="file" name="" accept="image/*" />
+
+      <br />
+
+      <input type="date  " placeholder="DOJ" /> <label for="">DOJ</label>
+      <input type="time" name="" id="" /> <label for="">login time</label>
+      <br />
+      <br />
+      <input
+        type="text"
+        placeholder="username/minChar=8"
+        required
+        minlength="8"
+      />
+      <input type="password"
+        placeholder="password /btw 2 to 5 Char"
+        maxlength="5"
+        required
+        minlength="2"
+      />
+      <input type="url" placeholder="give right url" />
+      <input type="search" placeholder="search" />
+      <input type="tel" placeholder="TELEPHON NO" />
+      <br />
+      <br />
+      <select multiple>
+        <optgroup label="non-veg">
+          <option>biryani</option>
+          <option value="">murga</option>
+          <option value="">mutton</option>
+          <option value="">biryani</option>
+          <option value="">htuifb</option>
+        </optgroup>
+      </select>
+      
+      <select name="" id="" multiple>
+        <optgroup label="veg">
+          <option value="">paneer</option>
+          <option value="">mashroom</option>
+        </optgroup>
+      </select>
+
+      <!-- <input type="checkbox"> <label for="">SKILLS</label> -->
+      <SELECT multiple>
+        <optgroup label="SKILLS">   
+      <option value="java">JAVA</option>
+      <option value="c++">C++</option>
+      <option value="c">C</option>
+      <option value="k">k</option>
+      <option value="javascript">JAVASCRIPT</option>
+    </optgroup>
+
+      </SELECT>
+      <br/> <br>
+    <input type="text" placeholder="your college name" list="college">
+    <datalist id="college">
+      <OPTION>JEC</OPTION>
+      <OPTION>RGPV</OPTION>
+      <OPTION>MITS</OPTION>
+      <OPTION>SGSITS</OPTION>
+    </datalist>
+  <BR></BR>
+  <form action="./mountain.jpg" method="post">
+    
+    <input
+    type="text"
+    placeholder="username/minChar=8"
+    required
+    minlength="8"
+  />
+  <input type="password"
+    placeholder="password /btw 2 to 5 Char"
+    maxlength="5"
+    required
+    minlength="2"
+  />
+
+  </form>
+      <button>SIGNUP</button>
+    </form>
+  </body>
+</html>
