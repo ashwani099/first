@@ -1,0 +1,65 @@
+*{
+    box-sizing: border-box;
+
+}
+
+html,body{
+    width: 100%;
+}
+
+body
+{
+    background-color: grey;
+}
+
+
+.box .content
+{
+    margin: 50px auto;
+}
+
+
+
+.box .content .header
+{
+    height: 34px;
+    width: 600px;
+    /* border-top: 30px solid white; */
+    background-color: white;
+    /* margin: 50px auto; */
+}
+
+.header .icon{
+    height: 30px;
+    width: 30px;
+    position: relative;
+    left:2px;
+    top: 2px;
+
+}
+
+.header .feed
+{
+    height: 300px;
+    width: 600px;
+}
+
+.username
+{
+    /* border: 2px solid red; */
+    position: absolute;
+    left: 45px;
+    top: 37px;
+
+}
+
+.btn
+{
+position: relative;
+/* left: 50px; */
+left: 500px;
+bottom: 78px;
+border-radius: 5px;
+color:white;
+background-color:black;
+}
